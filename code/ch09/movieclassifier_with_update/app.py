@@ -88,4 +88,4 @@ if __name__ == '__main__':
     except:
         port = 5000
         pass
-    app.run(debug=True, port=port)
+    app.run(debug=True, port=port, host="0.0.0.0")
